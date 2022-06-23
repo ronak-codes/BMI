@@ -14,6 +14,11 @@ h2
 .weight-div
 {
     margin:2rem;
+    margin-left:0;
+}
+.height-div
+{
+  margin-right: 2rem;
 }
 .Table-div
 {
@@ -38,14 +43,28 @@ th,td
 #btn
 {
     margin:2rem auto;
-    margin-left:3rem;
+    margin-left:6rem;
+    height:1.5rem;
+    width:4rem;
+    cursor: pointer;
     background:#B4C6A6;
+}
+#btn:hover
+{
+    background: green;
 }
 #btn1
 {
     margin:2rem auto ;
-    margin-left:1em;
+    margin-left:1.5em;
+    height:1.5rem;
+    width:4rem;
+    cursor: pointer;
     background:#B4C6A6;
+}
+#btn1:hover
+{
+  background: red;
 }
 a
 {
